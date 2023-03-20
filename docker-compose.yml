@@ -1,0 +1,23 @@
+version: '1'
+services:
+    web:
+      image: antdesign:v1
+      build: ./web
+      command: "npm start"
+      ports: 
+        - "8080:8080"
+      depends_on:
+        - "api"
+    api:
+      image: node-mongo-docker:v1
+      build: ./api
+      command: "npm start"
+      ports: 
+        - "3000:3000"
+      depends_on:
+        - "mongo"
+    mongo:
+      image: "mongo"
+      ports: 
+        - "27017:27017"
+

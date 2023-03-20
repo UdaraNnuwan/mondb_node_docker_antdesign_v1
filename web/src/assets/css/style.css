@@ -1,0 +1,59 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh;
+  }
+
+  .addemp-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    height: 100vh;
+    /* background-image: url('https://th.bing.com/th/id/R.6faa65b783a357c38e74c9e10493b26a?rik=TaK3D2OSfrmBIQ&riu=http%3a%2f%2fwww.sos-ca.com%2fwp-content%2fuploads%2f2017%2f10%2fit-solutions-burnaby.jpg&ehk=M6PQ8%2bWn6G5SPgUKJV07hhOZSzzdTYi%2bEWj52KFtAu8%3d&risl=&pid=ImgRaw&r=0'); */
+  }
+
+  h4{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+ 
+  }
+  
+  
+  .login-form-forgot {
+    float: right;
+  }
+  
+  .login-form-button {
+    width: 100%;
+  }
+  
+  a {
+    color: #1890ff;
+  }
+
+  /* Customize the font and colors */
+.ant-typography, .ant-typography * {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Style the title */
+.ant-typography h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+/* Style the contact details */
+.ant-typography p {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+/* Add some padding to the container */
+.ant-space-vertical {
+  padding: 16px;
+}
+
+  
