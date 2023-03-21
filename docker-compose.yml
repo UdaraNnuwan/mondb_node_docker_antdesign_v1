@@ -1,7 +1,7 @@
-version: '1'
+version: '1.1'
 services:
     web:
-      image: antdesign:v1
+      image: udarannuwan/antdesign:v1
       build: ./web
       command: "npm start"
       ports: 
@@ -9,7 +9,7 @@ services:
       depends_on:
         - "api"
     api:
-      image: node-mongo-docker:v1
+      image: udarannuwan/node-mongo-docker:v1
       build: ./api
       command: "npm start"
       ports: 
