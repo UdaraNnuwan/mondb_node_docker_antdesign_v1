@@ -12,3 +12,6 @@ docker compose up
 
 http://localhost:8080
 
+## Also API server run on port 3000. API URL as localhost:3000.
+
+http://localhost:3000
