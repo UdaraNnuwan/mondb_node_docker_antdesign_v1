@@ -4,7 +4,7 @@
 git clone https://github.com/UdaraNnuwan/mondb_node_docker_antdesign_v1.git
 
 ## Then docker compose up using powershell or terminal
-### Docker must be installed.(precondition)
+### Docker must be installed.(pre-condition)
 
 docker compose up
 
